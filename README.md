@@ -1,6 +1,6 @@
 # DKStickyFooterView
 
-
+<img src="https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview1.gif"/>
 ![GIF](https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview1.gif)
 ![GIF](https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview2.gif)
 
@@ -32,7 +32,7 @@ footerView.layer.zPosition = 1;
         
         CGFloat totalDelta = self.beganContentOffset.y - newOffsetY;
         
-        [self updateY];
+        [self updateYForContentOffset];
         
         if (ABS(totalDelta) < MINIMUM_SCROLLING_LENGTH || ABS(delta) <= 0.5) {
             return;
@@ -51,12 +51,12 @@ footerView.layer.zPosition = 1;
         }
         
         [UIView animateWithDuration:ANIMATION_DURATION animations:^{
-            [self updateY];
+            [self updateYForContentOffset];
         }];
         
     } else if ([keyPath isEqualToString:KEY_PATH_FRAME]) {
         if (!self.isShow) {
-            [self updateY];
+            [self updateYForContentOffset];
         }
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
