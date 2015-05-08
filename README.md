@@ -1,4 +1,5 @@
 # DKStickyFooterView
+
 The footer view will stick to the bottom when scrolling to the *contentOffset* of max or scrolling up.
 ---
 
