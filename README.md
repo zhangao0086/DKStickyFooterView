@@ -1,9 +1,10 @@
 # DKStickyFooterView
+The footer view will stick to the bottom when scrolling to the *contentOffset* of max or scrolling up.
+---
 
-<img src="https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview1.gif"/>
-![GIF](https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview1.gif)
-![GIF](https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview2.gif)
+<img width="50%" src="https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview1.gif"/><img width="50%" src="https://raw.githubusercontent.com/zhangao0086/DKStickyFooterView/master/Preview2.gif"/>
 
+---
 # Easy to use
 
 ```objective-c
@@ -17,6 +18,7 @@ DKStickyFooterView *footerView = [[DKStickyFooterView alloc] initWithFrame:CGRec
 footerView.layer.zPosition = 1;
 ```
 
+---
 # Based on Key-Value Observing
 
 ```objective-c
@@ -65,5 +67,6 @@ footerView.layer.zPosition = 1;
 
 ```
 
+---
 # Licence
 This code is distributed under the terms and conditions of the <a href="https://github.com/zhangao0086/DKStickyFooterView/master/LICENSE">MIT license</a>.
