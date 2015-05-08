@@ -2,7 +2,7 @@
 //  DKStickyFooterView.h
 //  portfolio
 //
-//  Created by 张雨红 on 15/5/5.
+//  Created by ZhangAo on 15/5/5.
 //  Copyright (c) 2015年 DKHS. All rights reserved.
 //
 

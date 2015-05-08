@@ -10,7 +10,7 @@ DKStickyFooterView *footerView = [[DKStickyFooterView alloc] initWithFrame:CGRec
 [self.tableView addSubview:footerView];
 ```
 
-## Set zPosition if add to UITableView
+## Set *zPosition* if added to UITableView
 
 ```objective-c
 footerView.layer.zPosition = 1;
