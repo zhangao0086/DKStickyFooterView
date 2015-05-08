@@ -13,8 +13,8 @@
 		9CD7261D1AFCD54300EED7AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7261C1AFCD54300EED7AE /* Images.xcassets */; };
 		9CD726201AFCD54300EED7AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7261E1AFCD54300EED7AE /* LaunchScreen.xib */; };
 		9CD7262C1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7262B1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m */; };
-		9CD726381AFCD56D00EED7AE /* DKStickyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */; };
 		9CD7263B1AFCD8B700EED7AE /* DKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7263A1AFCD8B700EED7AE /* DKMenuViewController.m */; };
+		9CD726431AFCEFE000EED7AE /* DKStickyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD726421AFCEFE000EED7AE /* DKStickyFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,10 @@
 		9CD726251AFCD54300EED7AE /* DKStickyFooterViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKStickyFooterViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD7262A1AFCD54300EED7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD7262B1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKStickyFooterViewDemoTests.m; sourceTree = "<group>"; };
-		9CD726361AFCD56D00EED7AE /* DKStickyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStickyFooterView.h; sourceTree = "<group>"; };
-		9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStickyFooterView.m; sourceTree = "<group>"; };
 		9CD726391AFCD8B700EED7AE /* DKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMenuViewController.h; sourceTree = "<group>"; };
 		9CD7263A1AFCD8B700EED7AE /* DKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMenuViewController.m; sourceTree = "<group>"; };
+		9CD726411AFCEFE000EED7AE /* DKStickyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStickyFooterView.h; sourceTree = "<group>"; };
+		9CD726421AFCEFE000EED7AE /* DKStickyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStickyFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		9CD7260E1AFCD54300EED7AE /* DKStickyFooterViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9CD726351AFCD56D00EED7AE /* DKStickyFooterView */,
+				9CD726401AFCEFE000EED7AE /* DKStickyFooterView */,
 				9CD726131AFCD54300EED7AE /* AppDelegate.h */,
 				9CD726141AFCD54300EED7AE /* AppDelegate.m */,
 				9CD726391AFCD8B700EED7AE /* DKMenuViewController.h */,
@@ -123,13 +123,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9CD726351AFCD56D00EED7AE /* DKStickyFooterView */ = {
+		9CD726401AFCEFE000EED7AE /* DKStickyFooterView */ = {
 			isa = PBXGroup;
 			children = (
-				9CD726361AFCD56D00EED7AE /* DKStickyFooterView.h */,
-				9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */,
+				9CD726411AFCEFE000EED7AE /* DKStickyFooterView.h */,
+				9CD726421AFCEFE000EED7AE /* DKStickyFooterView.m */,
 			);
-			path = DKStickyFooterView;
+			name = DKStickyFooterView;
+			path = ../../DKStickyFooterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +236,7 @@
 				9CD7263B1AFCD8B700EED7AE /* DKMenuViewController.m in Sources */,
 				9CD726151AFCD54300EED7AE /* AppDelegate.m in Sources */,
 				9CD726121AFCD54300EED7AE /* main.m in Sources */,
-				9CD726381AFCD56D00EED7AE /* DKStickyFooterView.m in Sources */,
+				9CD726431AFCEFE000EED7AE /* DKStickyFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +433,7 @@
 				9CD726311AFCD54400EED7AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CD726321AFCD54400EED7AE /* Build configuration list for PBXNativeTarget "DKStickyFooterViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +442,7 @@
 				9CD726341AFCD54400EED7AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
