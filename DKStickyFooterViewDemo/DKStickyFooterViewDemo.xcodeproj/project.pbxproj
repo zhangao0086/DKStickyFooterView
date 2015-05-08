@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CD726121AFCD54300EED7AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD726111AFCD54300EED7AE /* main.m */; };
+		9CD726151AFCD54300EED7AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD726141AFCD54300EED7AE /* AppDelegate.m */; };
+		9CD7261B1AFCD54300EED7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD726191AFCD54300EED7AE /* Main.storyboard */; };
+		9CD7261D1AFCD54300EED7AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7261C1AFCD54300EED7AE /* Images.xcassets */; };
+		9CD726201AFCD54300EED7AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7261E1AFCD54300EED7AE /* LaunchScreen.xib */; };
+		9CD7262C1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7262B1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m */; };
+		9CD726381AFCD56D00EED7AE /* DKStickyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */; };
+		9CD7263B1AFCD8B700EED7AE /* DKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7263A1AFCD8B700EED7AE /* DKMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CD726261AFCD54300EED7AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CD726041AFCD54300EED7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD7260B1AFCD54300EED7AE;
+			remoteInfo = DKStickyFooterViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CD7260C1AFCD54300EED7AE /* DKStickyFooterViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKStickyFooterViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD726101AFCD54300EED7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD726111AFCD54300EED7AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CD726131AFCD54300EED7AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CD726141AFCD54300EED7AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CD7261A1AFCD54300EED7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CD7261C1AFCD54300EED7AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CD7261F1AFCD54300EED7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9CD726251AFCD54300EED7AE /* DKStickyFooterViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKStickyFooterViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD7262A1AFCD54300EED7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD7262B1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKStickyFooterViewDemoTests.m; sourceTree = "<group>"; };
+		9CD726361AFCD56D00EED7AE /* DKStickyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStickyFooterView.h; sourceTree = "<group>"; };
+		9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStickyFooterView.m; sourceTree = "<group>"; };
+		9CD726391AFCD8B700EED7AE /* DKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMenuViewController.h; sourceTree = "<group>"; };
+		9CD7263A1AFCD8B700EED7AE /* DKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD726091AFCD54300EED7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD726221AFCD54300EED7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CD726031AFCD54300EED7AE = {
+			isa = PBXGroup;
+			children = (
+				9CD7260E1AFCD54300EED7AE /* DKStickyFooterViewDemo */,
+				9CD726281AFCD54300EED7AE /* DKStickyFooterViewDemoTests */,
+				9CD7260D1AFCD54300EED7AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD7260D1AFCD54300EED7AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7260C1AFCD54300EED7AE /* DKStickyFooterViewDemo.app */,
+				9CD726251AFCD54300EED7AE /* DKStickyFooterViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD7260E1AFCD54300EED7AE /* DKStickyFooterViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9CD726351AFCD56D00EED7AE /* DKStickyFooterView */,
+				9CD726131AFCD54300EED7AE /* AppDelegate.h */,
+				9CD726141AFCD54300EED7AE /* AppDelegate.m */,
+				9CD726391AFCD8B700EED7AE /* DKMenuViewController.h */,
+				9CD7263A1AFCD8B700EED7AE /* DKMenuViewController.m */,
+				9CD726191AFCD54300EED7AE /* Main.storyboard */,
+				9CD7261C1AFCD54300EED7AE /* Images.xcassets */,
+				9CD7261E1AFCD54300EED7AE /* LaunchScreen.xib */,
+				9CD7260F1AFCD54300EED7AE /* Supporting Files */,
+			);
+			path = DKStickyFooterViewDemo;
+			sourceTree = "<group>";
+		};
+		9CD7260F1AFCD54300EED7AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD726101AFCD54300EED7AE /* Info.plist */,
+				9CD726111AFCD54300EED7AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CD726281AFCD54300EED7AE /* DKStickyFooterViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7262B1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m */,
+				9CD726291AFCD54300EED7AE /* Supporting Files */,
+			);
+			path = DKStickyFooterViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9CD726291AFCD54300EED7AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7262A1AFCD54300EED7AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CD726351AFCD56D00EED7AE /* DKStickyFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				9CD726361AFCD56D00EED7AE /* DKStickyFooterView.h */,
+				9CD726371AFCD56D00EED7AE /* DKStickyFooterView.m */,
+			);
+			path = DKStickyFooterView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD7260B1AFCD54300EED7AE /* DKStickyFooterViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD7262F1AFCD54400EED7AE /* Build configuration list for PBXNativeTarget "DKStickyFooterViewDemo" */;
+			buildPhases = (
+				9CD726081AFCD54300EED7AE /* Sources */,
+				9CD726091AFCD54300EED7AE /* Frameworks */,
+				9CD7260A1AFCD54300EED7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKStickyFooterViewDemo;
+			productName = DKStickyFooterViewDemo;
+			productReference = 9CD7260C1AFCD54300EED7AE /* DKStickyFooterViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CD726241AFCD54300EED7AE /* DKStickyFooterViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD726321AFCD54400EED7AE /* Build configuration list for PBXNativeTarget "DKStickyFooterViewDemoTests" */;
+			buildPhases = (
+				9CD726211AFCD54300EED7AE /* Sources */,
+				9CD726221AFCD54300EED7AE /* Frameworks */,
+				9CD726231AFCD54300EED7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CD726271AFCD54300EED7AE /* PBXTargetDependency */,
+			);
+			name = DKStickyFooterViewDemoTests;
+			productName = DKStickyFooterViewDemoTests;
+			productReference = 9CD726251AFCD54300EED7AE /* DKStickyFooterViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD726041AFCD54300EED7AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ZhangAo;
+				TargetAttributes = {
+					9CD7260B1AFCD54300EED7AE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9CD726241AFCD54300EED7AE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9CD7260B1AFCD54300EED7AE;
+					};
+				};
+			};
+			buildConfigurationList = 9CD726071AFCD54300EED7AE /* Build configuration list for PBXProject "DKStickyFooterViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD726031AFCD54300EED7AE;
+			productRefGroup = 9CD7260D1AFCD54300EED7AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD7260B1AFCD54300EED7AE /* DKStickyFooterViewDemo */,
+				9CD726241AFCD54300EED7AE /* DKStickyFooterViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD7260A1AFCD54300EED7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD7261B1AFCD54300EED7AE /* Main.storyboard in Resources */,
+				9CD726201AFCD54300EED7AE /* LaunchScreen.xib in Resources */,
+				9CD7261D1AFCD54300EED7AE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD726231AFCD54300EED7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD726081AFCD54300EED7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD7263B1AFCD8B700EED7AE /* DKMenuViewController.m in Sources */,
+				9CD726151AFCD54300EED7AE /* AppDelegate.m in Sources */,
+				9CD726121AFCD54300EED7AE /* main.m in Sources */,
+				9CD726381AFCD56D00EED7AE /* DKStickyFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD726211AFCD54300EED7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD7262C1AFCD54300EED7AE /* DKStickyFooterViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CD726271AFCD54300EED7AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD7260B1AFCD54300EED7AE /* DKStickyFooterViewDemo */;
+			targetProxy = 9CD726261AFCD54300EED7AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CD726191AFCD54300EED7AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD7261A1AFCD54300EED7AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CD7261E1AFCD54300EED7AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CD7261F1AFCD54300EED7AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CD7262D1AFCD54400EED7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CD7262E1AFCD54400EED7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD726301AFCD54400EED7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKStickyFooterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CD726311AFCD54400EED7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKStickyFooterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CD726331AFCD54400EED7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKStickyFooterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKStickyFooterViewDemo.app/DKStickyFooterViewDemo";
+			};
+			name = Debug;
+		};
+		9CD726341AFCD54400EED7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DKStickyFooterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKStickyFooterViewDemo.app/DKStickyFooterViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD726071AFCD54300EED7AE /* Build configuration list for PBXProject "DKStickyFooterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD7262D1AFCD54400EED7AE /* Debug */,
+				9CD7262E1AFCD54400EED7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD7262F1AFCD54400EED7AE /* Build configuration list for PBXNativeTarget "DKStickyFooterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD726301AFCD54400EED7AE /* Debug */,
+				9CD726311AFCD54400EED7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CD726321AFCD54400EED7AE /* Build configuration list for PBXNativeTarget "DKStickyFooterViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD726331AFCD54400EED7AE /* Debug */,
+				9CD726341AFCD54400EED7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD726041AFCD54300EED7AE /* Project object */;
+}
