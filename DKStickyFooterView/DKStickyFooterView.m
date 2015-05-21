@@ -14,6 +14,36 @@
 #define ANIMATION_DURATION          (0.2)
 #define MINIMUM_SCROLLING_LENGTH    (20)
 
+@implementation UIView (DKStickyFrame)
+
+- (CGFloat)x {
+    return CGRectGetMinX(self.frame);
+}
+
+- (CGFloat)y {
+    return CGRectGetMinY(self.frame);
+}
+
+- (void)setY:(CGFloat)y {
+    self.frame = CGRectMake(self.x, y, self.width, self.height);
+}
+
+- (CGFloat)width {
+    return CGRectGetWidth(self.frame);
+}
+
+- (void)setWidth:(CGFloat)width {
+    self.frame = CGRectMake(self.x, self.y, width, self.height);
+}
+
+- (CGFloat)height {
+    return CGRectGetHeight(self.frame);
+}
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////////////
+
 @interface DKStickyFooterView() 
 
 @property (nonatomic, weak) UIScrollView *scrollView;
@@ -36,7 +66,8 @@
     [super awakeFromNib];
     
     self.isShow = YES;
-    self.topBorderColor = COMMON_SEPARATOR_COLOR;
+
+    self.topBorderColor = [UIColor lightGrayColor];
     self.backgroundColor = [UIColor whiteColor];
 }
 
@@ -48,7 +79,7 @@
     [((UIScrollView *)self.superview).panGestureRecognizer removeTarget:self action:@selector(gestureRecognizerStateUpdate:)];
     
     if (newSuperview != nil) {
-        DKAssert([newSuperview isKindOfClass:[UIScrollView class]]);
+        assert([newSuperview isKindOfClass:[UIScrollView class]]);
         self.scrollView = (UIScrollView *)newSuperview;
         
         [self.scrollView addObserver:self forKeyPath:KEY_PATH_CONTENTOFFSET options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
