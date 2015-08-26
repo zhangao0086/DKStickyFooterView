@@ -69,6 +69,8 @@
 
     self.topBorderColor = [UIColor lightGrayColor];
     self.backgroundColor = [UIColor whiteColor];
+    
+    self.layer.zPosition = 999;
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
